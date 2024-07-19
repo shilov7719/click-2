@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper2 a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper2 button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+
+    .m-page {
+        padding: 0;
+        height: auto;
+    }
+
+    .m-page:after {
+        display: none;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper2" style="padding: 10px;">
+        <a href="leaderboard.html" style="display: block; margin-bottom: 20px;">
+            Leaderboard
+        </a>
+        <button data-modal="processModal" style="border: 2px solid #000; color: #000; margin-bottom: 20px;">
+            Transaction is sent
+        </button>
+        <button data-modal="successModal" style="border: 2px solid #000; color: #000; margin-bottom: 20px;">
+            Purchase completed
+        </button>
+        <a href="preview.html" style="display: block; margin-bottom: 20px;">
+            Preview
+        </a>
+        <a href="boost.html" style="display: block; margin-bottom: 20px;">
+            Boost
+        </a>
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Home
+        </a>
+        <a href="index2.html" style="display: block; margin-bottom: 20px;">
+            Home 2
+        </a>
+        <a href="index3.html" style="display: block; margin-bottom: 20px;">
+            Home 3
+        </a>
+        <a href="index4.html" style="display: block; margin-bottom: 20px;">
+            Home 4
+        </a>
+        <a href="index5.html" style="display: block; margin-bottom: 20px;">
+            Home 5
+        </a>
+        <a href="index6.html" style="display: block; margin-bottom: 20px;">
+            Home 6
+        </a>
+        <a href="mine.html" style="display: block; margin-bottom: 20px;">
+            Mine
+        </a>
+        <a href="referall.html" style="display: block; margin-bottom: 20px;">
+            Referral
+        </a>
+        <a href="referall2.html" style="display: block; margin-bottom: 20px;">
+            Referral 2
+        </a>
+        <a href="tasks.html" style="display: block; margin-bottom: 20px;">
+            Tasks
+        </a>
+        <a href="tasks2.html" style="display: block; margin-bottom: 20px;">
+            Tasks 2
+        </a>
+        <a href="tasks3.html" style="display: block; margin-bottom: 20px;">
+            Tasks 3
+        </a>
+        <a href="tasks4.html" style="display: block; margin-bottom: 20px;">
+            Tasks 4
+        </a>
+        <a href="faq.html" style="display: block; margin-bottom: 20px;">
+            FAQ
+        </a>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="modal success-modal" id="successModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img src="img/success2.svg" alt="" class="success-modal__icon">
+                <div class="text20 semi-bold-text">
+                    Purchase completed
+                    successfully
+                </div>
+                <div class="text14 gray-text">
+                    Level activation takes 2 minutes
+                </div>
+                <div class="progress-bar">
+                    <span style="width: 75%;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal success-modal" id="processModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img class="m-loader" src="img/loader3.svg" alt="">
+                <div class="text20 semi-bold-text">
+                    Transaction is sent
+                </div>
+                <div class="text14 gray-text">
+                    Please, wait for the network confirmation
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
